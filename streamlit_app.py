@@ -66,4 +66,4 @@ st.sidebar.info("Soy un estudiante que se esta capacitando en Python")
 
 # También puedes agregar imágenes en la barra lateral
 st.sidebar.title("Mi empresa")
-st.sidebar.image("CAPX_Logo-02.png")
+st.sidebar.image("C:\Users\Jerónimo Ramírez\OneDrive - up.edu.mx\UP\7mo Semestre\Ing Fin.png")
