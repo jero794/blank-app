@@ -1,3 +1,10 @@
+import streamlit as st
+
+# Título de la aplicación
+st.title("Curriculum Vitae - Jeronimo Ramirez Pujol")
+
+# Texto del currículum en formato Markdown
+markdown_text = """
 # Jeronimo Ramirez Pujol
 
 **Dirección:** Av. Vallarta Eje Poniente 2701, Los Sueños Residencial, 45222, Zapopan  
@@ -47,3 +54,7 @@ Current student of the Bachelor’s Degree in Finance and Administration
 - Experience with marketing software
 - Strong analytical and problem-solving skills
 - Experience with accounting software
+"""
+
+# Mostrar el contenido del markdown en la aplicación de Streamlit
+st.markdown(markdown_text)
