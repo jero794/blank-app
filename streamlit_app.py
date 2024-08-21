@@ -64,8 +64,6 @@ st.markdown(markdown_text)
 st.sidebar.title("Sobre mí")
 st.sidebar.info("Soy un estudiante que se esta capacitando en Python")
 
-# También puedes agregar imágenes en la barra lateral
-st.sidebar.title("Mi empresa")
 
 st.subheader("Contáctame")
 # Formulario simple
