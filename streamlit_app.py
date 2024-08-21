@@ -66,5 +66,11 @@ st.sidebar.info("Soy un estudiante que se esta capacitando en Python")
 
 # También puedes agregar imágenes en la barra lateral
 st.sidebar.title("Mi empresa")
-st.sidebar.image("C:\\Users\\Jerónimo Ramírez\\OneDrive - up.edu.mx\\UP\\7mo Semestre\\Ing Fin.png", use_column_width=True)
 
+st.subheader("Contáctame")
+# Formulario simple
+nombre = st.text_input("Nombre")
+email = st.text_input("Correo electrónico")
+mensaje = st.text_area("Mensaje")
+if st.button("Enviar"):
+    st.success(f"Gracias por tu mensaje, {nombre}!")
