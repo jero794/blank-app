@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título de la aplicación
-st.title("Curriculum Vitae - Jeronimo Ramirez Pujol")
+st.title("Curriculum Vitae")
 
 # Texto del currículum en formato Markdown
 markdown_text = """
@@ -58,3 +58,12 @@ Current student of the Bachelor’s Degree in Finance and Administration
 
 # Mostrar el contenido del markdown en la aplicación de Streamlit
 st.markdown(markdown_text)
+
+
+# Barra lateral con información adicional
+st.sidebar.title("Sobre mí")
+st.sidebar.info("Soy un estudiante que se esta capacitando en Python")
+
+# También puedes agregar imágenes en la barra lateral
+st.sidebar.title("Mi empresa")
+st.sidebar.image("CAPX_Logo-02.png")
