@@ -1,5 +1,3 @@
-import streamlit as st
-from etfs_data import ETFs_Data
 
 
 # Título de la aplicación
